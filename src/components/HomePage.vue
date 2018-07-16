@@ -1,7 +1,7 @@
 <template>
-<div class="container-fluid">
+<div class="container-fluid jumbotron">
   <div class= row>
-    <div class="col-sm-4">Streamers</div>
+    <div class="col-sm-4">Streamers{{streamers}}</div>
     <div class="col-sm-6">Status</div>
   </div>
 </div>
@@ -18,11 +18,15 @@ export default {
   },
   mounted () {
     axios
-      .get('https://wind-bow.glitch.me/twitch-api/streams/FreeCodeCamp')
+      .get('https://wind-bow.glitch.me/twitch-api/streams/Warcraft')
       .then(response => (this.streamers = response))
+  },
+  methods: {
+    makeCall: function () {
+      
+    }
   }
 }
-
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
