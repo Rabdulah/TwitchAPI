@@ -5,7 +5,7 @@
       <tr>
         <th scope="col">Logo</th>
         <th scope="col">Streamer</th>
-        <th scope="col">game</th>
+        <th scope="col">Game</th>
         <th scope="col">Mature Content</th>
         <th scope="col">Live Viewers</th>
         <th scope="col">Link</th>
@@ -19,7 +19,7 @@
         <td v-if="streams.data.stream.channel.mature==true"><img class="rating" src="../assets/mature.png"></td>
         <td v-else><img class="rating" src="../assets/safe.jpg"></td>
         <td>{{ streams.data.stream.viewers}}</td>
-        <td><a v-bind:href="streams.data.stream.channel.url"><img class="preview" v-bind:src="streams.data.stream.preview.medium"/></a></td>
+        <td><a v-bind:href="streams.data.stream.channel.url" target="_blank"><img v-bind:title="streams.data.stream.channel.status" class="preview" v-bind:src="streams.data.stream.preview.medium"/></a></td>
       </tr>
       </tbody>
     </table>
@@ -64,6 +64,10 @@ var streamers = ["riotgames", "shadbasemurdertv", "starladder1", "beyondthesummi
     height: 45px;
     width: 45px;
     border-radius: 53%;
+  }
+  .jumbotron{
+    font-size: 20px;
+    margin: 0px;
   }
 
 </style>
