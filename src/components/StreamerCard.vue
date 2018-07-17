@@ -81,9 +81,6 @@ var streamers = ["riotgames", "shadbasemurdertv", "starladder1", "beyondthesummi
   #title{
     font-family: 'Anton', sans-serif;
   }
-  .table{
-    //background-color: #D7CEE8;
-  }
   #twitch{
     height: 300px;
     width: auto;
@@ -100,6 +97,12 @@ var streamers = ["riotgames", "shadbasemurdertv", "starladder1", "beyondthesummi
     color: #613EA2;
     font-size: 30px;
     font-family: 'Anton', sans-serif;
+  }
+  table{
+    color: #613EA2;
+  }
+  td{
+    font-size: 30px;
   }
 
 </style>
