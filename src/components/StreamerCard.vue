@@ -1,7 +1,7 @@
 <template>
   <div class="jumbotron container-fluid">
     <div id="title">
-      <h1 class="display-1 text-center" ><img src="../assets/live.png"/>  <img id="twitch" src="../assets/twitchAltLogo.jpg"/>  <img  src="../assets/streams.png"/></h1>
+      <h1 class="display-1 text-center" ><img id="live" src="../assets/live.png"/>  <img id="twitch" src="../assets/twitchAltLogo.jpg"/>  <img  src="../assets/streams.png"/></h1>
     </div>
     <br/>
     <div>
@@ -103,6 +103,12 @@ var streamers = ["riotgames", "shadbasemurdertv", "starladder1", "beyondthesummi
   }
   td{
     font-size: 30px;
+  }
+
+  @media screen and (max-width: 647px) {
+    #live {
+      margin-bottom: 4rem;
+    }
   }
 
 </style>
