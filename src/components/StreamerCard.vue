@@ -1,6 +1,13 @@
 <template>
   <div class="jumbotron container-fluid">
-    <table class="table table-striped table-dark">
+    <div id="title">
+      <h1 class="display-1 text-center" ><img src="../assets/live.png"/>  <img id="twitch" src="../assets/twitchAltLogo.jpg"/>  <img  src="../assets/streams.png"/></h1>
+    </div>
+    <br/>
+    <div>
+      <p class="text-center">Listed below are live streamers who are among the top 50 most popular channels on Twitch! Click the preview to be sent to their stream.</p>
+    </div>
+    <table class="table table-striped ">
       <thead>
       <tr>
         <th scope="col">Logo</th>
@@ -52,6 +59,7 @@ var streamers = ["riotgames", "shadbasemurdertv", "starladder1", "beyondthesummi
 "twitch", "e3", "nl_kripp", "nightblue3", "garenatw", "asiagodtonegg3be0", "meclipse", "shroud", "HiRezTV", "starladder5",
 "dota2ti", "dotati", "dreamhackcs", 'dota2ruhub', "Faceit", "faceittv", "esltv_lol", "esl_lol", "trick2g", "dotamajor",
 "riotgamesturkish", "izakooo", "eleaguetv", "towelliee", "Voyboy", "dreadztv", "destructoid", "overwatchleague", "taketv", "ongamenet"]
+  //#6441A4;
 </script>
 
 <style>
@@ -67,7 +75,31 @@ var streamers = ["riotgames", "shadbasemurdertv", "starladder1", "beyondthesummi
   }
   .jumbotron{
     font-size: 20px;
+    background-color: white;
     margin: 0px;
+  }
+  #title{
+    font-family: 'Anton', sans-serif;
+  }
+  .table{
+    //background-color: #D7CEE8;
+  }
+  #twitch{
+    height: 300px;
+    width: auto;
+  }
+  #twitch{
+    height: auto;
+    width: 300px;
+  }
+  #twitch{
+    position:relative;
+    top: -30px;
+  }
+  p{
+    color: #613EA2;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
   }
 
 </style>
