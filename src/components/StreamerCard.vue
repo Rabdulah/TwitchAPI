@@ -49,6 +49,7 @@ export default {
         .then(res => (this.streamInfo.push(res)))
     }
   },
+
   methods: {
   }
 }
