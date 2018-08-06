@@ -3,11 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-// import BootstrapVue from 'bootstrap-vue/docs/bootstrap-vue.esm.js';
-// import 'bootstrap/docs/css/bootstrap.css';
-// import 'bootstrap-vue/docs/bootstrap-vue.css';
-// import 'bootstrap/docs/css/bootstrap.css'
-// import 'bootstrap-vue/docs/bootstrap-vue.css'
+// import BootstrapVue from 'bootstrap-vue/dist/bootstrap-vue.esm.js';
+// import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap-vue/dist/bootstrap-vue.css';
+// import 'bootstrap/dist/css/bootstrap.css'
+// import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 // Vue.use(BootstrapVue);
 
