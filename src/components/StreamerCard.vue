@@ -1,7 +1,7 @@
 <template>
   <div class="jumbotron container-fluid">
     <div id="title">
-      <h1 class="display-1 text-center" ><img id="live" src="../assets/live.png"/>  <img id="twitch" src="../assets/twitchlogo.png"/>  <img  src="../assets/streams.png"/></h1>
+      <h1 class="display-1 text-center" ><img id="live" src="../assets/live.png"/>  <img id="twitch" src="../assets/hope.png"/>  <img  src="../assets/streams.png"/></h1>
     </div>
     <br/>
     <div>
