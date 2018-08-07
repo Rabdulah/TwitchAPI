@@ -1,7 +1,7 @@
 <template>
   <div class="jumbotron container-fluid">
     <div id="title">
-      <h1 class="display-1 text-center" ><img id="live" src="../assets/twitchlogo.png"/>  <img id="twitch" src="../assets/hope.png"/>  <img  src="../assets/streams.png"/></h1>
+      <h1 class="display-1 text-center" ><img id="live" src="../assets/live.png"/>  <img id="twitch" src="../assets/twitchlogo.png"/>  <img  src="../assets/streams.png"/></h1>
     </div>
     <br/>
     <div>
@@ -25,7 +25,7 @@
         <td>{{ streams.data.stream.channel.name}}</td>
         <td>{{ streams.data.stream.channel.game}}</td>
         <td v-if="streams.data.stream.channel.mature==true"><img class="rating" src="../assets/mature.png"></td>
-        <td v-else><img class="rating" src="../assets/safe.png"></td>
+        <td v-else><img class="rating" src="../assets/safe2.png"></td>
         <td>{{ streams.data.stream.viewers}}</td>
         <td><a v-bind:href="streams.data.stream.channel.url" target="_blank"><img v-bind:title="streams.data.stream.channel.status" class="preview" v-bind:src="streams.data.stream.preview.medium"/></a></td>
       </tr>
