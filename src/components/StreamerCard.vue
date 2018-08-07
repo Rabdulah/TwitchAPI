@@ -7,7 +7,7 @@
     <div>
       <p class="text-center">Listed below are live streamers who are among the top 50 most popular channels on Twitch! Click the preview to be sent to their stream.</p>
     </div>
-    <table class="table table-striped ">
+    <table class="table table-striped">
       <thead>
       <tr>
         <th scope="col">Logo</th>
@@ -19,7 +19,7 @@
       </tr>
       </thead>
       <tbody>
-      <!--eslint-disable-next-line-->
+      <!--eslint-disable-next-line -->
       <tr v-for="streams in streamInfo" v-if="streams.data.stream!=null">
         <th scope="row"><img class="logo" v-bind:src ="streams.data.stream.channel.logo"/></th>
         <td>{{ streams.data.stream.channel.name}}</td>
